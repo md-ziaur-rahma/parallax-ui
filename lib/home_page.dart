@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:parallaxui/exibition_bottom_sheet.dart';
 import 'package:parallaxui/sliding_cards.dart';
 
 class HomePage extends StatelessWidget {
@@ -21,7 +22,7 @@ class HomePage extends StatelessWidget {
               ],
             ),
           ),
-          // ExhibitionBottomSheet(), //use this or ScrollableExhibitionSheet
+          ExhibitionBottomSheet(), //use this or ScrollableExhibitionSheet
         ],
       ),
     );
